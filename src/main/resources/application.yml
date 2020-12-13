@@ -4,3 +4,10 @@ server:
 spring:
   application:
     name: demo2
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: 456719639366-dppo6jva2lf67hijbq9viv9sers916hr.apps.googleusercontent.com
+            clientSecret: 3qbdP8QLIu-DJlHw3vzu5KHO
